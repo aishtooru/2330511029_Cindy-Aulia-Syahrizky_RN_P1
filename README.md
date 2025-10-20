@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Pertemuan 1 React Native Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ini adalah project pertemuan pertama menggunakan React Native Expo [`create-expo-app
 
-## Get started
+## Software yang Digunakan
+1. Node.js 24.9.0
+   ```bash
+   node -v
+   ```
+2. npm 11.6.0
+   ```bash
+   npm -v
+   ```
+3. Java Development Kit (JDK) 25
+4. Expo CLI
+5. Expo Go App
 
-1. Install dependencies
+## Membuat Project
+
+1. Install Environment
 
    ```bash
-   npm install
+   npx create-expo-app pertemuanSatuApp
    ```
 
-2. Start the app
+2. Mulai Aplikasi
 
+   ```bash
+   cd pertemuanSatuApp
+   ```
    ```bash
    npx expo start
    ```
+3. Lihat Output dengan Scan Kode QR
 
-In the output, you'll find options to open the app in a
+## Perangkat Uji
+Android, Realme C65
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Ringkasan Belajar
+Setelah mempelajari React Native Expo, saya memahami beberapa konsep dasar pengembangan aplikasi mobile berbasis Javascript dan React. React Native Expo ini memungkinkan akses lintas platform, baik dengan mobile atau dengan website yang dapat diakses berbagai sistem operasi. Pada pertemuan pertama, saya mempelajari cara membuat komponen, mengelola state, flexbox layout, dan juga flatlist. Expo mempermudah proses pengujian karena tidak perlu konfigutasi native yang biasanya cukup rumit. Hanya saja, expo mengharapkan koneksi laptop dengan perangkat uji yaitu smartphone berada dalam ajringan internet yang sama untuk dapat mengaksesnya.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
