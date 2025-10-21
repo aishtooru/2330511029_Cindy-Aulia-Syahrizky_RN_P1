@@ -1,6 +1,6 @@
 # Pertemuan 1 React Native Expo 👋
 
-Ini adalah project pertemuan pertama menggunakan React Native Expo [`create-expo-app
+Ini adalah project pertemuan pertama menggunakan React Native Expo [`create-expo-app`]
 
 ## Software yang Digunakan
 1. Node.js 24.9.0
